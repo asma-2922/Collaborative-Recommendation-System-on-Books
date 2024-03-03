@@ -1,6 +1,6 @@
 # RecSys Course Project - 2
 
-- Contributors: [Preyali Dave](https://github.com/preyali), [Asama Narmawals](https://github.com/asma-2922), [Kirtan Soni](https://github.com/kir1906), [Krish Rupapara](https://github.com/KrishRupapara)
+- Contributors: [Preyali Dave](https://github.com/preyali), [Asama Narmawala](https://github.com/asma-2922), [Kirtan Soni](https://github.com/kir1906), [Krish Rupapara](https://github.com/KrishRupapara)
 - Dataset :link:: [Librarything Data](https://cseweb.ucsd.edu/~jmcauley/datasets.html#social_data)
 - In this Project, we have used collaborative filtering approach to recommend books to the user from the Librarything dataset.
 
