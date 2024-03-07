@@ -50,6 +50,7 @@ This step involves several tasks, data transformation involves converting data i
 ## Results
 - The user-user matrix approach gave the MSE = 0.75.
 - The item-item matrix approach gave the MSE = 0.55.
+- The neural network matrix factorization gave the MSE = 1.12
 - Memorization Approach it is not possible to capture relationship between more than one also not able to detect similar (exact) item and that can affect user's rating. We had very sparse data so in avg user have given only to 20 item and we had 0.16 million items so if item is new then that rating can we counted from single or biased rating.
 
 # Novelty
