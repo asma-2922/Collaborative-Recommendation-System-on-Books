@@ -3,7 +3,7 @@
 - Contributors: [Preyali Dave](https://github.com/preyali), [Asma Narmawala](https://github.com/asma-2922), [Kirtan Soni](https://github.com/kir1906), [Krish Rupapara](https://github.com/KrishRupapara)
 - Dataset :link:: [Librarything Data](https://cseweb.ucsd.edu/~jmcauley/datasets.html#social_data)
 - In this Project, we have used collaborative filtering approach to recommend books to the user from the Librarything dataset.
-- 
+  
 **COLLABORATIVE FILTERING** : To address some of the limitations of content-based filtering, collaborative filtering uses similarities between users and items simultaneously to provide recommendations. This allows for serendipitous recommendations; that is, collaborative filtering models can recommend an item to user A based on the interests of a similar user B.
  
   We will be taking into use some of the collaborative featuring methods on the above dataset.
@@ -11,13 +11,9 @@
 **DATA DESCRIPTION**
 
   **1.Comments**- The explict reviews given by users.
-  
   **2.Work**- Item/ book ID numbers.
-  
   **3.User**- names of the users. 
-  
   **4.user_id**- UserID of the users/ customers.
-  
   **5.Star**- Ratings given by users.
   
   There were a few more unsuable columns that was removed after preprocessing.
