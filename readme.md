@@ -8,19 +8,16 @@
  
 - We will be taking into use some of the collaborative featuring methods on the above dataset.
   
-**DATA DESCRIPTION**
+**Description of the dataset**
 
-  **1.Comments**- The explict reviews given by users.
-  
-  **2.Work**- Item/ book ID numbers.
-  
-  **3.User**- names of the users. 
-  
-  **4.user_id**- UserID of the users/ customers.
-  
-  **5.Star**- Ratings given by users.
-  
-  There were a few more unsuable columns that was removed after preprocessing.
+>* comment: The review or comment left by the user. 
+>* nhelpful: The number of helpful votes received for the review.
+>* unixtime: A timestamp indicating when the review was posted.
+>* work: An identifier for the work being reviewed.
+>* user: Name of the user who wrote the review.
+>* stars: A numerical value representing the rating given in the review, on a scale of 0 to 5. 
+>* time: The date when the review was posted.
+>* user_id - An identifier of the user who wrote the review.
   
 
 ## Tasks
@@ -53,8 +50,8 @@ This step involves several tasks, data transformation involves converting data i
   
 
 ## Results
-- The user-user matrix approach gave the Accuracy = 0.75.
-- The item-item matrix approach gave the Accuracy = 0.55.
+- The user-user matrix approach gave the MSE = 0.75.
+- The item-item matrix approach gave the MSE = 0.55.
 - Memorization Approach it is not possible to capture relationship between more than one also not able to detect similar (exact) item and that can affect user's rating. We had very sparse data so in avg user have given only to 20 item and we had 0.16 million items so if item is new then that rating can we counted from single or biased rating.
 
 # Novelty
