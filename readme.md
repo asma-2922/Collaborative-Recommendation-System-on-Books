@@ -3,7 +3,6 @@
 - Contributors: [Preyali Dave](https://github.com/preyali), [Asma Narmawala](https://github.com/asma-2922), [Kirtan Soni](https://github.com/kir1906), [Krish Rupapara](https://github.com/KrishRupapara)
 - Dataset :link:: [Librarything Data](https://cseweb.ucsd.edu/~jmcauley/datasets.html#social_data)
 - In this Project, we have used collaborative filtering approach to recommend books to the user from the Librarything dataset.
-- 
 **COLLABORATIVE FILTERING** : To address some of the limitations of content-based filtering, collaborative filtering uses similarities between users and items simultaneously to provide recommendations. This allows for serendipitous recommendations; that is, collaborative filtering models can recommend an item to user A based on the interests of a similar user B.
  
   We will be taking into use some of the collaborative featuring methods on the above dataset.
@@ -34,12 +33,12 @@
 
 ## Exploratory Data Analysis
 
--Exploratory Data Analysis (EDA) to gain insights into Rating characteristics.
--In EDA we provide data visualisation in different graph method like scatter plot, density plot and heatmap. EDA summarize the main behaviour, features, and patterns in a dataset.
--Describing the relation between each other and making the observations.
+- Exploratory Data Analysis (EDA) to gain insights into Rating characteristics.
+- In EDA we provide data visualisation in different graph method like scatter plot, density plot and heatmap. EDA summarize the main behaviour, features, and patterns in a dataset.
+- Describing the relation between each other and making the observations.
 
 ## Data Preprocessing
-Data cleaning and preprocessing contains mainly segregation of values, dropping the unecessary values and columns to get a more sturctured and comphrendable data that is suitable for analysis and model training. Also converted the text file to csv for better usage.
+- Data cleaning and preprocessing contains mainly segregation of values, dropping the unecessary values and columns to get a more sturctured and comphrendable data that is suitable for analysis and model training. Also converted the text file to csv for better usage.
 Data preprocessing is the initial step in data preparation, where the raw data is cleaned and prepared for further analysis.
 This step involves several tasks, data transformation involves converting data into a different format or structure to meet the requirements of specific analysis techniques or machine learning algorithms.
 
@@ -53,9 +52,9 @@ This step involves several tasks, data transformation involves converting data i
   
 
 ## Results
--The user-user matrix approach gave the Accuracy = 0.75.
--The item-item matrix approach gave the Accuracy = 055.
--Memorization Approach it is not possible to capture relationship between more than one also not able to detect similar (exact) item and that can affect user's rating. We had very sparse data so in avg user have given only to 20 item and we had 0.16 million items so if item is new then that rating can we counted from single or biased rating.
+- The user-user matrix approach gave the Accuracy = 0.75.
+- The item-item matrix approach gave the Accuracy = 055.
+- Memorization Approach it is not possible to capture relationship between more than one also not able to detect similar (exact) item and that can affect user's rating. We had very sparse data so in avg user have given only to 20 item and we had 0.16 million items so if item is new then that rating can we counted from single or biased rating.
 
 # Novelty
 - We have implemented the Reccomendation system for books on Tkinter.
