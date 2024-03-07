@@ -29,15 +29,17 @@
 - <a href='#data-preprocessing'>Data Preprocessing</a>
 - <a href='#collaborative-filtering'>Collaborative Filtering</a>
 - <a href='#results'>Results</a>
+- <a href='#novelty'>Novelty</a>
+
 
 ## Exploratory Data Analysis
 
 -Exploratory Data Analysis (EDA) to gain insights into Rating characteristics.
--In EDA we provide data visualisation in different graph method like pair plot, cat plot, subplot, data distribution plot, pie chart, scatter plot. EDA summarize the main behaviour, features, and patterns in a dataset.
+-In EDA we provide data visualisation in different graph method like scatter plot, density plot and heatmap. EDA summarize the main behaviour, features, and patterns in a dataset.
 -Describing the relation between each other and making the observations.
 
 ## Data Preprocessing
--Data cleaning and preprocessing contains mainly segregation of values, dropping the unecessary values and columns to get a more sturctured and comphrendable data that is suitable for analysis and model training.
+-Data cleaning and preprocessing contains mainly segregation of values, dropping the unecessary values and columns to get a more sturctured and comphrendable data that is suitable for analysis and model training. Also converted the text file to csv for better usage.
 Data preprocessing is the initial step in data preparation, where the raw data is cleaned and prepared for further analysis.
 This step involves several tasks, data transformation involves converting data into a different format or structure to meet the requirements of specific analysis techniques or machine learning algorithms.
 
@@ -45,6 +47,17 @@ This step involves several tasks, data transformation involves converting data i
 
 ## Collaborative Filtering
 - In this section, we have mainly applied the collaborative filtering techniques for rating predictions of particular books as items and the corresponding users.
-- The item-item and user-user matrix factorisation was applied as a part of model based filtering to form the user-item interaction matrix and then find the correlation and similarities.
+- We have made use of both memory and model based approach to do the rating predictions.
+- The item-item and user-user matrix factorisation was applied to form the user-item interaction matrix and then find the correlation and similarities.
+- The traditional collaborative filtering approach solely focuses on improving accuracy of the rating without considering user satisfaction. If most accurate result predicts similar items, then it may not be very well for user satisfaction. So to tackle that problem, we implemented a diversity aware recommendation model, which can improve overall diversity of the recommended items while taking consideration of accuracy.
+  
 
 ## Results
+-The user-user matrix approach gave the Accuracy = 0.75.
+-The item-item matrix approach gave the Accuracy = 055.
+-Memorization Approach it is not possible to capture relationship between more than one also not able to detect similar (exact) item and that can affect user's rating. We had very sparse data so in avg user have given only to 20 item and we had 0.16 million items so if item is new then that rating can we counted from single or biased rating.
+
+# Novelty
+- We have implemented the Reccomendation system for books on Tkinter.
+- Performed Webscrapping to extract book names from Book id (work).
+- Performed Matrix Factorization using neural network. 
