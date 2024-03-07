@@ -3,9 +3,10 @@
 - Contributors: [Preyali Dave](https://github.com/preyali), [Asma Narmawala](https://github.com/asma-2922), [Kirtan Soni](https://github.com/kir1906), [Krish Rupapara](https://github.com/KrishRupapara)
 - Dataset :link:: [Librarything Data](https://cseweb.ucsd.edu/~jmcauley/datasets.html#social_data)
 - In this Project, we have used collaborative filtering approach to recommend books to the user from the Librarything dataset.
+  
 **COLLABORATIVE FILTERING** : To address some of the limitations of content-based filtering, collaborative filtering uses similarities between users and items simultaneously to provide recommendations. This allows for serendipitous recommendations; that is, collaborative filtering models can recommend an item to user A based on the interests of a similar user B.
  
-  We will be taking into use some of the collaborative featuring methods on the above dataset.
+- We will be taking into use some of the collaborative featuring methods on the above dataset.
   
 **DATA DESCRIPTION**
 
@@ -53,10 +54,10 @@ This step involves several tasks, data transformation involves converting data i
 
 ## Results
 - The user-user matrix approach gave the Accuracy = 0.75.
-- The item-item matrix approach gave the Accuracy = 055.
+- The item-item matrix approach gave the Accuracy = 0.55.
 - Memorization Approach it is not possible to capture relationship between more than one also not able to detect similar (exact) item and that can affect user's rating. We had very sparse data so in avg user have given only to 20 item and we had 0.16 million items so if item is new then that rating can we counted from single or biased rating.
 
 # Novelty
-- We have implemented the Reccomendation system for books on Tkinter.
+- We have implemented the Recommendation system for books on Tkinter.
 - Performed Webscrapping to extract book names from Book id (work).
 - Performed Matrix Factorization using neural network. 
