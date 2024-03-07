@@ -6,7 +6,8 @@
 - 
 **COLLABORATIVE FILTERING** : To address some of the limitations of content-based filtering, collaborative filtering uses similarities between users and items simultaneously to provide recommendations. This allows for serendipitous recommendations; that is, collaborative filtering models can recommend an item to user A based on the interests of a similar user B.
  
-- We will be taking into use some of the collaborative featuring methods on the above dataset 
+- We will be taking into use some of the collaborative featuring methods on the above dataset.
+  
 **DATA DESCRIPTION**
 
   **1.Comments**- The explict reviews given by users.
